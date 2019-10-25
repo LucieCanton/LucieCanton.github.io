@@ -31,19 +31,12 @@
 	background-color: #EAEAEA;
 }
 
-#services {
-	display: block;
-	background-color: #2A2929;
-	width: 100vw;
-	height: 376px;
-}
-
 .titreblanc {
 	color: #FFFFFF;
 }
 
 #titreqsm {
-	color: #B02020;
+	color: #C00012;
 	font-size: 90px;
 	font-family: 'Staatliches';
 	margin-left: 700px;
@@ -51,7 +44,7 @@
 
 #qsm {
 	width: 100vw;
-	height: 100vh;
+	height: 105vh;
 }
 
 #imgqsm {
@@ -63,9 +56,9 @@
 
 #blocqsm {
 	width: 801px;
-	height: 250px;
+	height: 350px;
 	margin-left: 500px;
-	margin-top: 300px;
+	margin-top: 200px;
 	padding-top: 30px;
 }
 
@@ -83,17 +76,35 @@
 .bouton {
 	width: 218px;
 	height: 56px;
-	background-color: #B02020;
+	background-color: #C00012;
+}
+
+#bouton1 {
+	float: right; 
+	margin-right: 120px;
+
+}
+
+.textebouton {
 	color: #FFFFFF;
 	font-family: 'Staatliches';
 	letter-spacing: 5px;
-	padding-top: 5px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#services {
+	display: block;
+	background-color: #2A2929;
+	width: 100vw;
+	height: 390px;
 }
 
 #titreservice {
 	font-size: 53px;
 	font-family: 'Staatliches';
 	letter-spacing: 5px;
+	margin-left: 565px;
 }
 
 .imgservice {
@@ -101,9 +112,55 @@
 	width: 250px;
 	margin-left: 160px;
 	position: relative;
+}
+
+#histoire h1 {
+	color: #C00012;
+	font-size: 90px;
+	font-family: 'Staatliches';
+	margin-left: 100px;
+}
+
+#histoire {
+	width: 100vw;
+	height: 100vh;
+}
+
+#histoire img {
+	width: 584px;
+	float: right;
+	margin-right: 98px;
+}
+
+#blochistoire {
+	width: 1060px;
+	height: 350px;
+	margin-top: 200px;
+	margin-left: 110px;
 
 }
 
-#texteservice {
-	display: inline-block;
+#blochistoire p, h1 {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 65px;
+	font-size: 20px;
 }
+#blochistoire h1 {
+
+	color: #C00012;
+	margin-left: 45px;
+	font-size: 40px;
+}
+
+#blochistoire p {
+	margin-left: 45px;
+		width: 950px;
+
+}
+
+#bouton2 {
+	float: right;
+	margin-right: 120px;
+
+}
+
